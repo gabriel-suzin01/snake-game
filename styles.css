@@ -1,0 +1,40 @@
+@keyframes fruit_animation {
+    0% {
+        transform: rotateZ(10deg);
+        opacity: 0;
+    }
+    
+    25%{
+        transform: rotateZ(-10deg);
+    }
+    
+    50% {
+        transform: rotateZ(10deg);
+        opacity: 1;
+    }
+
+    75% {
+        transform: rotateZ(-10deg);
+    }
+    
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.fruit {
+    animation-duration: 0.75s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-name: fruit_animation;
+}
+
+.snake-head {
+    transition: transform 0.15s linear;
+}

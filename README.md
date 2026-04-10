@@ -1,6 +1,6 @@
 # 🐍 Snake Game
 
-This project was made for fun, in just 3 hours!
+This project was made for fun, in a few days!
 
 ## 📖 Some Learnings:
 

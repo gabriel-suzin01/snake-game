@@ -6,10 +6,20 @@
     <title>Snake Game!</title>
 
     <!-- Importando tailwindcss para classes globais -->
-    <link href="tailwind.css" rel="stylesheet" />
+    <link href="./tailwind-classes.css" rel="stylesheet" />
+
+    <!-- Importando tailwindcss de classes locais -->
+    <link href="./styles.css" rel="stylesheet" />
 
     <!-- Importando script para funcionamento do jogo -->
-    <script src="index.js"></script>
+    <script type="module" src="./index.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="flex justify-center items-center w-dvw h-dvh bg-gray-400">
+      <div
+        id="main-container"
+        class="w-full h-full flex justify-center items-center"
+      ></div>
+    </div>
+  </body>
 </html>
